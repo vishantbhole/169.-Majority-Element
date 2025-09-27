@@ -22,5 +22,9 @@ if __name__ == "__main__":
     s = [3,2,3]
 
     print("Output is : ", sol.majorityElement(s))
+    
+    s2 = [2,2,1,1,1,2,2]
+
+    print("Output is : ", sol.majorityElement(s2))
 
 
