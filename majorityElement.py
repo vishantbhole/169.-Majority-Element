@@ -5,3 +5,5 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
+        majority = 0
+        count = 0
