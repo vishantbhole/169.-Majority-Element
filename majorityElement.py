@@ -15,3 +15,12 @@ class Solution(object):
             else:
                 count -= 1
         return majority
+
+
+if __name__ == "__main__":
+    sol = Solution()
+    s = [3,2,3]
+
+    print("Output is : ", sol.majorityElement(s))
+
+
