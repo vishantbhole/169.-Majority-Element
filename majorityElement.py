@@ -7,3 +7,6 @@ class Solution(object):
         """
         majority = 0
         count = 0
+        for n in nums:
+            if count == 0:
+                majority = n
