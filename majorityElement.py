@@ -7,3 +7,28 @@ class Solution(object):
         """
         majority = 0
         count = 0
+        for n in nums:
+            if count == 0:
+                majority = n
+            if n == majority:
+                count += 1
+            else:
+                count -= 1
+        return majority
+
+
+if __name__ == "__main__":
+    sol = Solution()
+    s = [3,2,3]
+
+    print("Output is : ", sol.majorityElement(s))
+    
+    s2 = [2,2,1,1,1,2,2]
+
+    print("Output is : ", sol.majorityElement(s2))
+
+    s3 = [6,5,5]
+
+    print("Output is : ", sol.majorityElement(s3))
+
+
