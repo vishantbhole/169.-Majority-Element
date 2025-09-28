@@ -27,4 +27,8 @@ if __name__ == "__main__":
 
     print("Output is : ", sol.majorityElement(s2))
 
+    s3 = [6,5,5]
+
+    print("Output is : ", sol.majorityElement(s3))
+
 
